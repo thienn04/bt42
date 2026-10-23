@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Bài Tập Thực Hành Lập Trình Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 26px;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+        }
+        h2 {
+            color: #2e7d32;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .menu-item {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+        .menu-item:hover {
+            background: #2e7d32;
+            color: white;
+            border-color: #2e7d32;
+            transform: translateY(-2px);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1b5e20;
+            color: white;
+            margin-top: 40px;
+        }
+        @media(max-width: 600px) {
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cổng Thông Tin Bài Tập Thực Hành Lập Trình Web</h1>
+        <p>Họ và tên: <b>Nguyễn Duy Thiện</b> | Mã sinh viên: <b>231A010579</b></p>
+        <p>Trường Đại học Văn Hiến (VHU)</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Danh Sách Bài Tập Thực Hành</h2>
+            <p>Chọn các bài tập dưới đây để xem chi tiết giao diện và chức năng:</p>
+            
+            <div class="menu-grid">
+                <a href="https://ntan-tdt.github.io/ltw.vhu.io/phan_thuc_hanh_n.html" class="menu-item">Bài TK5<br></a>
+                <a href="tk7.html" class="menu-item">Bài TK7<br></a>
+                <a href="tk8.html" class="menu-item">Bài TK8<br></a>
+                <a href="k4.html" class="menu-item">Bài K4<br></a>
+                <a href="k6.html" class="menu-item">Bài K6<br></a>
+                <a href="k8.html" class="menu-item">Bài K8<br></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Nguyễn Duy Thiện - 231A010579 - Đại học Văn Hiến</p>
+    </footer>
+
+</body>
+</html>
